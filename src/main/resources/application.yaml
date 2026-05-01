@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: trip-finder
+  threads:
+    virtual:
+      enabled: true
+
+services:
+  accommodation-url: http://localhost:7070/sec02/accommodations/
+  event-url: http://localhost:7070/sec02/events/
+  local-recommendation-url: http://localhost:7070/sec02/local-recommendations/
+  transportation-url: http://localhost:7070/sec02/transportation/
+  weather-url: http://localhost:7070/sec02/weather/
+  flight-search-url: http://localhost:7070/sec03/flight/search/
+  flight-reservation-url: http://localhost:7070/sec03/flight/reserve/
